@@ -1,0 +1,115 @@
+/*
+  ,ad8888ba,             88          88      ,ad8888ba,             88 88                                    
+ d8"'    `"8b            ""          88     d8"'    `"8b            88 88                                    
+d8'                                  88    d8'                      88 88                                    
+88            8b,dPPYba, 88  ,adPPYb,88    88            ,adPPYYba, 88 88  ,adPPYba, 8b,dPPYba, 8b       d8  
+88      88888 88P'   "Y8 88 a8"    `Y88    88      88888 ""     `Y8 88 88 a8P_____88 88P'   "Y8 `8b     d8'  
+Y8,        88 88         88 8b       88    Y8,        88 ,adPPPPP88 88 88 8PP""""""" 88          `8b   d8'   
+ Y8a.    .a88 88         88 "8a,   ,d88     Y8a.    .a88 88,    ,88 88 88 "8b,   ,aa 88           `8b,d8'    
+  `"Y88888P"  88         88  `"8bbdP"Y8      `"Y88888P"  `"8bbdP"Y8 88 88  `"Ybbd8"' 88             Y88'     
+                                                                                                    d8'      
+                                                                                                   d8'                                                                                                                                                                              
+ */
+
+
+#big_box{
+   max-width:100%;
+   margin:0 auto; 
+   height:auto;  
+  
+}
+#big_box > img:hover{-webkit-box-shadow:0 0 10px rgba(0,0,0,.1); -webkit-transform: scale(1.05)}
+.box-1, .box-2, .box-3, .box-4{ 
+  position:relative;
+    float:left;
+    transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  max-width:100%; 
+    max-height:100%;
+  
+}
+
+/* Button Styles
+
+  8 888888888o   8 8888      88 8888888 8888888888 8888888 8888888888 ,o888888o.     b.             8    d888888o.   
+  8 8888    `88. 8 8888      88       8 8888             8 8888    . 8888     `88.   888o.          8  .`8888:' `88. 
+  8 8888     `88 8 8888      88       8 8888             8 8888   ,8 8888       `8b  Y88888o.       8  8.`8888.   Y8 
+  8 8888     ,88 8 8888      88       8 8888             8 8888   88 8888        `8b .`Y888888o.    8  `8.`8888.     
+  8 8888.   ,88' 8 8888      88       8 8888             8 8888   88 8888         88 8o. `Y888888o. 8   `8.`8888.    
+  8 8888888888   8 8888      88       8 8888             8 8888   88 8888         88 8`Y8o. `Y88888o8    `8.`8888.   
+  8 8888    `88. 8 8888      88       8 8888             8 8888   88 8888        ,8P 8   `Y8o. `Y8888     `8.`8888.  
+  8 8888      88 ` 8888     ,8P       8 8888             8 8888   `8 8888       ,8P  8      `Y8o. `Y8 8b   `8.`8888. 
+  8 8888    ,88'   8888   ,d8P        8 8888             8 8888    ` 8888     ,88'   8         `Y8o.` `8b.  ;8.`8888 
+  8 888888888P      `Y88888P'         8 8888             8 8888       `8888888P'     8            `Yo  `Y8888P ,88P' 
+
+*/
+
+.btn-green {
+    border-color: #15987e;
+    color: #fff;
+    background-color: #16a085;
+}
+
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active,
+.open .dropdown-toggle.btn-green {
+    border-color: #138871;
+    color: #fff;
+    background-color: #149077;
+}
+
+.btn-green.disabled,
+.btn-green[disabled],
+fieldset[disabled] .btn-green,
+.btn-green.disabled:hover,
+.btn-green[disabled]:hover,
+fieldset[disabled] .btn-green:hover,
+.btn-green.disabled:focus,
+.btn-green[disabled]:focus,
+fieldset[disabled] .btn-green:focus,
+.btn-green.disabled:active,
+.btn-green[disabled]:active,
+fieldset[disabled] .btn-green:active,
+.btn-green.disabled.active,
+.btn-green[disabled].active,
+fieldset[disabled] .btn-green.active {
+    border-color: #2eaa91;
+    background-color: #39ae97;
+}
+
+.btn-red {
+    border-color: #db4839;
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+    border-color: #c54133;
+    color: #fff;
+    background-color: #cf4436;
+}
+
+.btn-red.disabled,
+.btn-red[disabled],
+fieldset[disabled] .btn-red,
+.btn-red.disabled:hover,
+.btn-red[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red.disabled:focus,
+.btn-red[disabled]:focus,
+fieldset[disabled] .btn-red:focus,
+.btn-red.disabled:active,
+.btn-red[disabled]:active,
+fieldset[disabled] .btn-red:active,
+.btn-red.disabled.active,
+.btn-red[disabled].active,
+fieldset[disabled] .btn-red.active {
+    border-color: #e95e50;
+    background-color: #eb6759;
+}
